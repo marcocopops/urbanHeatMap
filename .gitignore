@@ -1,0 +1,23 @@
+# Secrets
+netatmo_tokens.json
+*.secret
+
+# Data (Netatmo terms: raw station data is not redistributed)
+data/*
+!data/README.md
+*.sqlite*
+*.csv
+*.gpkg
+
+# BD TOPO archive (download it from IGN, see data/README.md)
+BDTOPO_*/
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+monenv/
+
+# Logs
+*.log
